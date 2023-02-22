@@ -1,0 +1,45 @@
+
+body{
+  background-color: dodgerblue;
+}
+.parrent{
+
+ margin-left: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  box-sizing: border-box;
+  gap:50px;
+  
+}
+.child{
+  background-color: white;
+  border-radius: 10px
+}
+
+.merge{
+  display: inline-block;
+}
+h1,h2{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.head{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+list{
+  line-height: 30px;
+}
+ul{
+  list-style: none;
+}
+.button{
+  display: flex;
+  justify-content: space-around;
+}
+.mute{
+  opacity: 0.7;
+}
